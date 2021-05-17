@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+        background-image: url(download\ \(2\).jfif);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+        display: inline-block;
+}
+
+ul li a {
+          text-decoration: none;
+          color: white;
+          padding: 5px 20px;
+          border: 1px solid transparent;
+          transition: 0.6s ease;
+}
+
+ul li a:hover{
+                background-color: #fff;
+                color: black;
+}
+
+ul li .active a{
+    background-color: #fff;
+    color: rgb(42, 66, 204):
+}
+
+
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50% -50%);
+}
+
+.title h1{
+     color: black;
+     font-size: 70px;
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+    left: 32%;
+    transform: translate(-50% -50%);
+}
+
+.btn {
+   border: 1px solid rgb(14, 13, 13);
+   padding: 10px 30px;
+   color: rgb(3, 3, 3);
+   text-decoration: none;
+}
+.btn :hover{
+    background-color: rgb(12, 12, 12);
+                color: black;
+}
